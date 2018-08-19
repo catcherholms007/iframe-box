@@ -1,7 +1,7 @@
 # iframe-box
 Lightbox2 for iframes
 
-#Usage
+# Usage
 Include the CSS at the top of your page in your ```<head>``` tag:
 
 ```<link href="path/to/framer.css" rel="stylesheet">```
