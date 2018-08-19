@@ -1,7 +1,7 @@
 # iframe-box
 Lightbox2 for iframes
 
-##Usage
+#Usage
 Include the CSS at the top of your page in your ```<head>``` tag:
 
 ```<link href="path/to/framer.css" rel="stylesheet">```
@@ -16,7 +16,7 @@ If you already use jQuery on your page, make sure it is loaded before framer.js.
 
 Confirm that the four iframes loaded by framer.css are in the correct location.
 
-##Initialize with HTML
+#Initialize with HTML
 Single iframes. Add a data-framer attribute to any iframe link to enable IFrame-box. For the value of the attribute, use a unique name for each iframe. For example:
 
 ```<a href="https://www.youtube.com/embed/-qnyd7Ht9uc" data-framer="image-1" data-title="My caption">Zedd & Elley Duhé - Happy Now (Lyrics)</a>```
@@ -32,7 +32,7 @@ Iframe sets. If you have a group of related iframes that you would like to combi
 <a href="https://www.youtube.com/embed/kiBF0KtqHLk" data-framer="roadtrip">KAZKA — ПЛАКАЛА [OFFICIAL AUDIO]</a>
 ```
 
-###Options
+#Options
 If you want to change any of the default options, call the option method.
 ```
 <script>
