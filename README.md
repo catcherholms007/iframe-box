@@ -59,7 +59,7 @@ If you want to change any of the default options, call the option method.
 |wrapAround|false|If true, when a user reaches the last iframe in a set, the right navigation arrow will appear and they will be to continue moving forward which will take them back to the first iframe in the set.|
 
 # Browser support
-Lightbox2 has been tested successfully in the following browsers:
+IFrame-box has been tested successfully in the following browsers:
 - Internet Explorer. If you want to support IE 6, 7, and 8, use your own copy of jQuery v1.x with framer.js.
 - Chrome
 - Safari
