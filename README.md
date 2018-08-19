@@ -16,7 +16,7 @@ If you already use jQuery on your page, make sure it is loaded before framer.js.
 
 Confirm that the four iframes loaded by framer.css are in the correct location.
 
-#Initialize with HTML
+# Initialize with HTML
 Single iframes. Add a data-framer attribute to any iframe link to enable IFrame-box. For the value of the attribute, use a unique name for each iframe. For example:
 
 ```<a href="https://www.youtube.com/embed/-qnyd7Ht9uc" data-framer="image-1" data-title="My caption">Zedd & Elley Duhé - Happy Now (Lyrics)</a>```
@@ -32,7 +32,7 @@ Iframe sets. If you have a group of related iframes that you would like to combi
 <a href="https://www.youtube.com/embed/kiBF0KtqHLk" data-framer="roadtrip">KAZKA — ПЛАКАЛА [OFFICIAL AUDIO]</a>
 ```
 
-#Options
+# Options
 If you want to change any of the default options, call the option method.
 ```
 <script>
@@ -58,7 +58,7 @@ If you want to change any of the default options, call the option method.
 |showImageNumberLabel|true|If false, the text indicating the current iframe number and the total number of iframse in set (Ex. "iframe 2 of 4") will be hidden.|
 |wrapAround|false|If true, when a user reaches the last iframe in a set, the right navigation arrow will appear and they will be to continue moving forward which will take them back to the first iframe in the set.|
 
-##Browser support
+# Browser support
 Lightbox2 has been tested successfully in the following browsers:
 - Internet Explorer. If you want to support IE 6, 7, and 8, use your own copy of jQuery v1.x with framer.js.
 - Chrome
