@@ -19,7 +19,7 @@ Confirm that the four iframes loaded by framer.css are in the correct location.
 # Initialize with HTML
 Single iframes. Add a data-framer attribute to any iframe link to enable IFrame-box. For the value of the attribute, use a unique name for each iframe. For example:
 
-```<a href="https://www.youtube.com/embed/-qnyd7Ht9uc" data-framer="image-1" data-title="My caption">Zedd & Elley Duhé - Happy Now (Lyrics)</a>```
+```<a href="https://www.youtube.com/embed/-qnyd7Ht9uc" data-framer="iframe-1" data-title="My caption">Zedd & Elley Duhé - Happy Now (Lyrics)</a>```
 
 Optional:
 - Add a data-title attribute if you want to show a caption.
@@ -46,7 +46,7 @@ If you want to change any of the default options, call the option method.
 |Option|Default|Description|
 |------|------|----------------|
 |alwaysShowNavOnTouchDevices|false|If true, the left and right navigation arrows which appear on mouse hover when viewing iframe sets will always be visible on devices which support touch.|
-|albumLabel|"Image %1 of %2"|The text displayed below the caption when viewing an iframe set. The default text shows the current iframe number and the total number of iframe in the set.|
+|albumLabel|"Iframe %1 of %2"|The text displayed below the caption when viewing an iframe set. The default text shows the current iframe number and the total number of iframe in the set.|
 |disableScrolling|false|If true, prevent the page from scrolling while IFrame-box is open. This works by settings overflow hidden on the body.|
 |fadeDuration|600|The time it takes for the IFrame-box container and overlay to fade in and out, in milliseconds.|
 |fitImagesInViewport|true|If true, resize iframes that would extend outside of the viewport so they fit neatly inside of it. This saves the user from having to scroll to see the entire iframe.|
